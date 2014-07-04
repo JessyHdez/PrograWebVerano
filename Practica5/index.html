@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<script src="js/jquery.min.js"></script>
+		<script>	
+			$(document).ready(
+				function  () {
+					//alert('Hola javascript');
+					alert($('#elemento1').css('fontSize'));
+					$('#elemento1').css({ 'fontSize' : '100px', 'color' : 'red' });  
+
+					//$('#elemento1').css('fontSize', '100px'); // establece una propiedad individual CSS, y la modifica por el valor dado  //selecciona el elemento cuyo id es elemento 1 //selecciona los elementos de la clase titulo
+					alert($('#elemento1').css('fontSize'));
+					$('#elemento1').hide('slow'); //ocultar el elemento despacio
+					$('#elemento1').show('slow'); //ocultar el elemento despacio	
+					$('h2').width('10px'); // establece el ancho de todos los elementos H1 
+					$('h1').height('150px'); // establece el alto de todos los elementos H1 
+					$('h2').css({ 
+					        'fontSize' : '+=15px', // suma 15px al tamaño original del elemento
+					        'paddingTop' : '+=20px' // suma 20px al padding superior original del elemento
+					    });
+
+				
+					$('#elemento1').click( //
+						function(){
+							$(this).hide('slow');
+							//alert($('#input1').val())
+
+
+						}
+						);
+					$('#boton').click( //
+						function(){
+							alert($('#input1').val())
+
+
+						}
+						);		
+					$('#botons').click(
+						function(){
+							alert(parseInt($('#input2').val())+parseInt($('#input3').val()));
+						}
+
+						);
+
+
+
+					}
+				);
+		</script>
+	</head>
+
+	<body>
+		<div id="container" class="elemento2">
+			<h1 id="titulo">
+				<p class="parrafo" id="elemento1"> Parrafo</p>
+			</h1>
+		</div>
+		<div>
+		 	<h1 class="titulo">Titulo 1</h1>
+		 	<h2 class="titulo">Titulo 2</h2>
+		</div>
+		<div>
+			<input type="text" id="input1"></input>
+			<button id="boton">Aceptar</button>
+		</div>
+		<div>
+			<input type="text" id="input2"></input>
+			<input type="text" id="input3"></input>
+			<button id="botons">Aceptar</button>			
+		</div>
+	</body>
+</html>
