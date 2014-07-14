@@ -17,7 +17,7 @@ class Conexion {
         $this->db->debug = false;
 			       //ip     user      pass    bd
         //$this->db->Connect('localhost','fifa_2014','1111','fifa');
-         $this->db->Connect('localhost','localhost','NAVgar23','fifa');
+         $this->db->Connect('localhost','fifa_2014','1111','fifa');
 
     }
     

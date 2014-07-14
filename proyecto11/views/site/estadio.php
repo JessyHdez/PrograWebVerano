@@ -4,19 +4,20 @@
       <div class="col-md-10">
         <h4>Registro Estadio</h4>
         <form id="formregistro" method="POST" class="form-horizontal">
+            <!--SI EL NAME=Nombre CON MAYUSCULA NO VALIDA-->
           <div class="form-group">
-            <label class="col-lg-3 control-label" for="nombre">Nombre</label>
+            <label class="col-lg-3 control-label" for="Nombre">Nombre</label>
             <div class="col-lg-5">
-                <input type="text" class="form-control" name="nombre" id="nombre"/>
+                <input type="text" class="form-control" name="Nombre" id="Nombre"/>
             </div>
           </div>
 
-          <div class="form-group">
+          <!--div class="form-group">
             <label class="col-lg-3 control-label" for="idciudad">Id_ciudad</label>
             <div class="col-lg-5">
                 <input type="text" class="form-control" name="idciudad" id="idciudad" />
             </div>
-          </div>
+          </div-->
         <input type="submit" name="Guardar" value="Guardar" />
         </form>  
 

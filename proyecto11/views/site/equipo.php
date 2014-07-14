@@ -5,7 +5,7 @@
       include ('../../models/Conexion.php');
       include ('../../models/Modelo.php');
       include ('../../models/Equipo.php'); //terminar estos archivos en modelo
-      include ('../../controllers/EquipoController.php');
+     // include ('../../controllers/EquipoController.php');
       include ('../../libs/Er.php');
       include ('../layouts/header.php');
 

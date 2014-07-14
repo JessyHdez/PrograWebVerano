@@ -73,84 +73,84 @@
                       idcontinente: {
                           validators: {
                               notEmpty: {
-                                  message: 'El volumen es requerido.'
+                                  message: 'El id continente es requerido.'
                               }
                           }
                       },
                       bandera: {
                           validators: {
                               notEmpty: {
-                                  message: 'El titulo es requerido.'
+                                  message: 'La bandera es requerida.'
                               }
                           }
                       },
                       idpais: {
                           validators: {
                               notEmpty: {
-                                  message: 'El subtitulo es requerido'
+                                  message: 'El id pais es requerido'
                               }
                           }
                       },
                       escudo: {
                           validators: {
                               notEmpty: {
-                                  message: 'El titulo es requerido.'
+                                  message: 'El escudo es requerido.'
                               }
                           }
                       },
                       idequipo: {
                           validators: {
                               notEmpty: {
-                                  message: 'El titulo es requerido.'
+                                  message: 'El id equipo es requerido.'
                               }
                           }
                       },
                       Edad: {
                           validators: {
                               notEmpty: {
-                                  message: 'El titulo es requerido.'
+                                  message: 'La edad es requerida.'
                               }
                           }
                       },
                       foto: {
                           validators: {
                               notEmpty: {
-                                  message: 'El titulo es requerido.'
+                                  message: 'La foto es requerida.'
                               }
                           }
                       }, 
                       estatura: {
                           validators: {
                               notEmpty: {
-                                  message: 'El titulo es requerido.'
+                                  message: 'La estatura es requerida.'
                               }
                           }
                       }, 
                       peso: {
                           validators: {
                               notEmpty: {
-                                  message: 'El titulo es requerido.'
+                                  message: 'El peso es requerido.'
                               }
                           }
                       }, 
                       apellido: {
                           validators: {
                               notEmpty: {
-                                  message: 'El titulo es requerido.'
+                                  message: 'El apellido es requerido.'
                               }
                           }
                       },
                       abreviatura: {
                           validators: {
                               notEmpty: {
-                                  message: 'El titulo es requerido.'
+                                  message: 'La abreviatura es requerida.'
                               }
                           }
                       }, 
-                      idciudad: {
+                      Nombre: {
                           validators: {
                               notEmpty: {
-                                  message: 'El titulo es requerido.'
+                                  message: 'El Nombre es requerido.'
                               }
                           }
                       },                                                                                                                                
@@ -239,7 +239,7 @@ $(document).ready(function() {
                     editorial: {
                     validators: {
                         notEmpty: {
-                            message: 'La editorial es requerida'
+                            message: 'El editorial es requerido'
                         }
                     }
                 },
