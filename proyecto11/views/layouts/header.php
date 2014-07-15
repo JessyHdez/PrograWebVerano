@@ -16,7 +16,7 @@
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/bootstrapValidator.min.css" rel="stylesheet" />
-    <link  href="../css/style.css" rel="stylesheet" >
+    <!--link  href="../css/style.css" rel="stylesheet" -->
     <link href="../css/bootstrap-datetimepicker.min.css" rel="stylesheet" />  
     <link href="../css/micss.css" rel="stylesheet" />
     

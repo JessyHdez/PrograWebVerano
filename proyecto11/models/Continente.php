@@ -13,7 +13,7 @@ class Continente extends Modelo{
     public $errores = array( );
     
     private $nombre;
-;
+
        
     
     function Continente(){
@@ -38,7 +38,7 @@ class Continente extends Modelo{
        $er = new Er();
        
        if ( !$er->valida_nombre($valor) ){
-           $this->errores[] = "Este e-mail (".$valor.") no es valido";
+           $this->errores[] = "Este nombre (".$valor.") no es valido";
        }
 
               

@@ -1,4 +1,23 @@
-<?php include ('../layouts/header.php'); ?>
+<?php  
+
+      include ('../../libs/adodb5/adodb-pager.inc.php');
+      include ('../../libs/adodb5/adodb.inc.php');
+      include ('../../models/Conexion.php');
+      include ('../../models/Modelo.php');
+      include ('../../models/Integrante.php'); //terminar estos archivos en modelo
+      include ('../../controllers/IntegranteController.php');
+      include ('../../libs/Er.php');
+      include ('../layouts/header.php');
+
+
+  if (isset($_POST['nombre'])) {
+    //echo "<pre>"; //Etiqueta pre muestra los espacios 
+   // print_r($_POST);
+  //  echo "</pre>";
+    $integranteC = new IntegranteController();
+    $integranteC->insertaIntegrante($_POST);
+  }
+?>
 
     <div class="row">
       <div class="col-md-10">

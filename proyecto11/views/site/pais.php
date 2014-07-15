@@ -1,4 +1,23 @@
-<?php include ('../layouts/header.php'); ?>
+<?php  
+
+      include ('../../libs/adodb5/adodb-pager.inc.php');
+      include ('../../libs/adodb5/adodb.inc.php');
+      include ('../../models/Conexion.php');
+      include ('../../models/Modelo.php');
+      include ('../../models/Pais.php'); //terminar estos archivos en modelo
+      include ('../../controllers/PaisController.php');
+      include ('../../libs/Er.php');
+      include ('../layouts/header.php');
+
+
+  if (isset($_POST['nombre'])) {
+    //echo "<pre>"; //Etiqueta pre muestra los espacios 
+   // print_r($_POST);
+  //  echo "</pre>";
+    $paisC = new PaisController();
+    $paisC->insertaPais($_POST);
+  }
+?>
 
     <div class="row">
       <div class="col-md-10">
